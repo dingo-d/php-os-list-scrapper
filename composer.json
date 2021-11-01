@@ -1,0 +1,39 @@
+{
+	"name": "infinum/os-list-scraper",
+	"description": "PHP console command for getting useful information about repositories.",
+	"keywords": [
+		"open-source",
+		"list",
+		"fetch",
+		"details",
+		"cli"
+	],
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/infinum/os-list-scraper/issues",
+		"source": "https://github.com/infinum/os-list-scraper"
+	},
+	"require": {
+		"php": ">=7.4",
+		"guzzlehttp/guzzle": "^7.0.1",
+		"http-interop/http-factory-guzzle": "^1.0",
+		"knplabs/github-api": "^3.0",
+		"symfony/console": "^5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Infinum\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"process-timeout": 2000
+	},
+	"scripts": {
+		"repos:fetch": "@php bin/console os-list:fetch",
+		"repos:vulnerabilities": "@php bin/console os-list:repo-vulnerabilities"
+	}
+}
