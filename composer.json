@@ -1,5 +1,5 @@
 {
-	"name": "infinum/os-list-scraper",
+	"name": "infinum/php-os-list-scraper",
 	"description": "PHP console command for getting useful information about repositories.",
 	"keywords": [
 		"open-source",
