@@ -1,3 +1,4 @@
+/vendor
 .editorconfig
 composer.lock
 repos.json
