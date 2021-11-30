@@ -48,7 +48,7 @@ class FetchRepoDetails extends FetchCommand
 	 *
 	 * @var string Command name.
 	 */
-	protected static string $defaultName = 'os-list:fetch';
+	protected static $defaultName = 'os-list:fetch';
 
 	/**
 	 * Configures the current command

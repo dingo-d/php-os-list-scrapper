@@ -43,7 +43,7 @@ class FetchRepoVulnerabilities extends FetchCommand
 	 *
 	 * @var string Command name.
 	 */
-	protected static string $defaultName = 'os-list:repo-vulnerabilities';
+	protected static $defaultName = 'os-list:repo-vulnerabilities';
 
 	/**
 	 * Configures the current command
